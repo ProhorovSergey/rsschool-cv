@@ -2,3 +2,59 @@
     font-family: Roboto;
      src: url("assets/fonts/Roboto.ttf");
    }
+   body {
+    font-family: 'Roboto';
+   }
+   * {
+    box-sizing: border-box;
+  }
+
+
+
+  .header {                                      /*HEADER*/
+    background-color:rgba(128, 128, 128, 0.422) ;
+  }
+  .nav-item {
+    margin: 40px; 
+    padding: 4px;
+    display: inline; 
+    margin-right: 5px; 
+    padding: 3px;
+  }
+  html {                                         /*Плавная прокрутка*/
+    scroll-behavior: smooth; 
+  }
+  .nav-link {                                    /*Больше площадь для кликабельности*/
+    padding: 0 20px;
+    line-height: 50px;
+  }
+  .nav-link {                                    /*Скорость изменения свойств*/
+    transition: .3s;
+}
+
+
+  .main {                                        /*MAIN*/
+    border: 1px solid red;
+  }
+  .section-title {
+    text-align: center;
+  }
+  .section img {                                 /*расположение картинки в секции*/
+    width: 200px;
+    position: relative;
+    right: 0px;
+    top: -103px;
+  }
+
+  .footer {                                      /*FOOTER*/
+    border: 1px solid red;
+  }
+  body {                                         /*прижимаем footer к низу*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
